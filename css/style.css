@@ -1,0 +1,33 @@
+/* google fonts add */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* extra css */
+body{
+    z-index: -1;
+    background-color: #181818 !important;
+}
+.input-container{
+    min-width: 350px;
+}
+#modal{
+    z-index: 999;
+    max-width: 800px;
+    min-height: 700px;
+    top: 50%;
+    right: 50%;
+    background-color: red;
+    margin: 40px 0;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    padding: 8px;
+    
+}
+td{
+    text-align: center !important;
+}
+th{
+    text-align: left !important;
+}
